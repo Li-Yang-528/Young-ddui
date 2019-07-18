@@ -4,13 +4,13 @@ Component({
     overflowCount: 99,
     text: '',
     dot: false,
-    handleClick:function(){
+    onClick:function(){
       console.log(this)
     }
   },
   methods:{
     click(){
-      this.props.handleClick()
+      this.props.onClick()
     }
   }
     
