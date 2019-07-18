@@ -1,5 +1,5 @@
-import Component from '/common/Component'
-import {assign} from '/common/util'
+import Component from '../common/Component'
+import {assign} from '../common/util'
 
 let timer;
 

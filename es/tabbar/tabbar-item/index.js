@@ -1,4 +1,4 @@
-import Component from '/common/Component'
+import Component from '../common/Component'
 Component({
   data: {
     active: false
