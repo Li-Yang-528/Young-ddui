@@ -1,3 +1,6 @@
 {
-  "component": true
+  "component": true,
+   "usingComponents": {
+    "y-relation": "../relation/index"
+  }
 }
