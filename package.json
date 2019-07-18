@@ -1,6 +1,6 @@
 {
   "name": "young-ddui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "钉钉小程序(E应用)UI组件库",
   "main": "index.js",
   "files": [
