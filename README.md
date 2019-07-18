@@ -1,4 +1,10 @@
 钉钉小程序(E应用)UI组件库
+ 
+✍️[Young-ddui](https://li-yang-528.github.io/post/young-ddui/)是钉钉小程序(E应用)UI组件库，提供API接口主力开发者快速搭建应用。
+
+✍️ 本项目基于 MIT 协议，请自由地享受和参与开源
+
+<!-- more -->
 
 # 主要功能
 * 支持父子组件节点获取 - $parent/$children
