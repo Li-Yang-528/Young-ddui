@@ -34,6 +34,7 @@ page.json引用
 # 组件
 ## Button
 按钮
+
 | 参数 | 说明 | 类型 | 可选值 |默认值|
 |:---- |:----|:----|:----|:----|
 |className|自定义class | string|—|""|
@@ -56,6 +57,7 @@ page.json引用
 
 ## Badge
 徽章
+
 | 参数 | 说明 | 类型 | 可选值 |默认值|
 |:---- |:----|:----|:----|:----|
 className|自定义class | string|—|""
@@ -71,6 +73,7 @@ inner| 自定义内容
 
 ## Card
 卡片
+
 | 参数 | 说明 | 类型 | 可选值 |默认值|
 |:---- |:----|:----|:----|:----|
 className|自定义class | string|—|""
@@ -88,6 +91,7 @@ footer|自定义 footer
 
 ## Row
 行布局
+
 | 参数 | 说明 | 类型 | 可选值 |默认值|
 |:---- |:----|:----|:----|:----|
 className|自定义class | string|—|""
@@ -112,6 +116,7 @@ alignContent|对齐|string|同flex-align-content布局|"start"
 
 ## Dialog
 模态框
+
 | 参数 | 说明 | 类型 | 可选值 |默认值|
 |:---- |:----|:----|:----|:----|
 className|自定义class | string|—|""
@@ -140,6 +145,7 @@ footer|自定义底部（按钮区域）
 | 名 称 | 说     明 | 类型| 参数
 |:---- |:----|:----|:----|
 show| 显示方法|object|params 
+
 #### params
 
 | 参数 | 说明 | 类型 | 可选值 |默认值|
@@ -151,6 +157,7 @@ type|类型 | string|"success","error,"warning"|""
 
 ## Tabbar
 底部菜单栏
+
 | 参数 | 说明 | 类型 | 可选值 |默认值|
 |:---- |:----|:----|:----|:----|
 className|自定义class | string|—|""
@@ -164,6 +171,7 @@ onChange|tabbar切换回调函数| function|—|—
 
 ## Tabbar-item
 底部菜单栏-内容
+
 | 参数 | 说明 | 类型 | 可选值 |默认值|
 |:---- |:----|:----|:----|:----|
 className|自定义class | string|—|""
@@ -180,6 +188,7 @@ icon-active| 激活状态下图标
 
 ## Tabs
 选项卡
+
 | 参数 | 说明 | 类型 | 可选值 |默认值|
 |:---- |:----|:----|:----|:----|
 className|自定义class | string|—|""
@@ -192,6 +201,7 @@ onTabChang|监听tabs切换函数|function|—|""
 
 ## Tabs-item
 选项卡-内容
+
 | 参数 | 说明 | 类型 | 可选值 |默认值|
 |:---- |:----|:----|:----|:----|
 className|自定义class | string|—|""
@@ -203,6 +213,7 @@ className|自定义class | string|—|""
 
 ## Tag
 标签
+
 | 参数 | 说明 | 类型 | 可选值 |默认值|
 |:---- |:----|:----|:----|:----|
 className|自定义class | string|—|""
