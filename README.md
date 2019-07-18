@@ -38,7 +38,7 @@ page.json引用
 |:---- |:----|:----|:----|:----|
 |className|自定义class | string|—|""|
 |size|尺寸|string|mini/small/large/block|"normal"|
-type|类型|string|primary/danger/warning| "default"|
+|type|类型|string|primary/danger/warning| "default"|
 |plain|是否镂空|boolean|—|false|
 |disabled|禁用|boolean|—| false|
 |round|是否圆角| boolean| —|false|
