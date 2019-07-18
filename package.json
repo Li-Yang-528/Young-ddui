@@ -1,0 +1,13 @@
+{
+  "name": "young-ui",
+  "version": "0.0.2",
+  "description": "钉钉小程序(E应用)UI组件库",
+  "files": [
+    "es"
+  ],
+  "keywords": [
+    "dingtalk"
+  ],
+  "author": "layah",
+  "license": "MIT"
+}
