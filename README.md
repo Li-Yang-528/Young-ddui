@@ -8,7 +8,7 @@
 
 # 主要功能
 * 支持父子组件节点获取 - $parent/$children
-* 支持页面ref获取组件对象
+* 支持页面ref获取组件对象 - 组件定义refName
 
 <!-- more -->
 
