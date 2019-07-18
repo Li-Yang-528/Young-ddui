@@ -1,0 +1,29 @@
+.block{
+  margin: 0;
+}
+.wrapper{
+ padding-bottom: 50px;
+}
+.wrapper-body{
+  margin-top: 10px;
+}
+.card-footer-list{
+  display: flex;
+  width: 100%;
+}
+.card-footer-list__item{
+  flex:1;
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  text-align: center;
+}
+.card-footer-list__item__title{
+  color:#666;
+}
+.card-footer-list__item__text{
+  color:#333;
+}
+.background-inhert .tab-body{
+  background-color: inherit;
+}

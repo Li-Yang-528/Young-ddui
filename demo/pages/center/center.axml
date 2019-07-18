@@ -1,0 +1,8 @@
+<view class="wrapper">
+  <y-button size="block" type="warning" onClick='showDialog'>唤起弹窗</y-button>
+  <y-dialog visible="{{false}}" title="提示" onClose="showDialog">
+    代码是写出来给人看的
+  </y-dialog>
+</view>
+<y-notify refName="notify" onClose="showDialog"  show="{{show}}"></y-notify>
+<y-toast refName='toast' ></y-toast>

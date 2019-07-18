@@ -1,0 +1,78 @@
+<view class="wrapper">
+  <view class="wrapper-header">
+    <y-card
+    class="block" 
+    thumb="/static/image/6.png"
+    subTitle= "管理员",
+    title="14:30"
+    arrow="{{false}}">
+      <view slot='footer' class="card-footer-list">
+        <view class="card-footer-list__item">
+          <view class="card-footer-list__item__title">客户级别</view>
+          <view class="card-footer-list__item__text">重点客户</view>
+        </view>
+        <view class="card-footer-list__item">
+          <view class="card-footer-list__item__title">成交状态</view>
+          <view class="card-footer-list__item__text">未完成</view>
+        </view>
+        <view class="card-footer-list__item">
+          <view class="card-footer-list__item__title">负责人</view>
+          <view class="card-footer-list__item__text">管理员</view>
+        </view>
+      </view>
+    </y-card>
+  </view>
+  <view class="wrapper-body">
+    <y-tabs className="background-inhert"> 
+      <y-tab-item title="跟踪记录" >
+        <y-timeline>
+          <y-timeline-item timestamp="07月11日">
+             <y-card
+              class="block" 
+              thumb="/static/image/6.png"
+              title= "管理员",
+              subTitle="14:30"
+              arrow="{{false}}">
+                <view slot='content'>
+                  跟进内容
+                </view>
+                <view slot='footer'>
+                  <y-tag >见面拜访</y-tag>
+                  <y-tag>2019-07-14 16:54:40</y-tag>
+                </view>
+              </y-card>
+          </y-timeline-item>
+          <y-timeline-item timestamp="07月10日">
+             <y-card
+              class="block" 
+              thumb="/static/image/4.png"
+              title= "大客户",
+              subTitle="14:30"
+              arrow="{{false}}">
+                <view slot='content'>
+                  跟进内容2
+                </view>
+                <view slot='footer'>
+                  <y-tag >见面拜访</y-tag>
+                  <y-tag>2019-07-14 16:54:40</y-tag>
+                </view>
+              </y-card>
+          </y-timeline-item>
+        </y-timeline>
+      </y-tab-item>
+      <y-tab-item title="基本信息">
+        基本信息
+      </y-tab-item>
+      <y-tab-item title="相关信息">
+        相关信息
+      </y-tab-item>
+    </y-tabs>
+  </view>
+
+</view>
+
+<y-tabbar className="footer">
+  <y-tabbar-item  icon="" path='/pages/index/index'>写跟进</y-tabbar-item>
+  <y-tabbar-item icon="" path='/pages/center/center'>打电话</y-tabbar-item>
+  <y-tabbar-item icon="" path='/pages/center/center'>更多</y-tabbar-item>
+</y-tabbar>

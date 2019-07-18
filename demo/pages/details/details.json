@@ -1,0 +1,15 @@
+{
+  "defaultTitle": "详情",
+  "usingComponents": {
+    "y-row":"young-ddui/es/row/index",
+    "y-col": "young-ddui/es/col/index",
+    "y-tabs": "young-ddui/es/tabs/index",
+    "y-tab-item": "young-ddui/es/tabs/tab-item/index",
+    "y-card": "young-ddui/es/card/index",
+    "y-tabbar": "young-ddui/es/tabbar/index",
+    "y-tabbar-item": "young-ddui/es/tabbar/tabbar-item/index",
+    "y-tag": "young-ddui/es/tag/index",
+    "y-timeline": "young-ddui/es/timeline/index",
+    "y-timeline-item": "young-ddui/es/timeline/timeline-item/index"
+  }
+}

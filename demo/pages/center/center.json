@@ -1,0 +1,9 @@
+{
+  "defaultTitle": "我的",
+  "usingComponents": {
+    "y-dialog": "young-ddui/es/dialog/index",
+    "y-button": "young-ddui/es/button/index",
+    "y-notify": "young-ddui/es/notify/index",
+    "y-toast": "young-ddui/es/toast/index"
+  }
+}

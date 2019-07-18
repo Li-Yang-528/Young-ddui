@@ -1,0 +1,11 @@
+{
+  "defaultTitle": "CRM",
+  "usingComponents": {
+    "y-button": "young-ddui/es/button/index",
+    "y-tabs": "young-ddui/es/tabs/index",
+    "y-tab-item": "young-ddui/es/tabs/tab-item/index",
+    "y-card": "young-ddui/es/card/index",
+    "y-tabbar": "young-ddui/es/tabbar/index",
+    "y-tabbar-item": "young-ddui/es/tabbar/tabbar-item/index"
+  }
+}

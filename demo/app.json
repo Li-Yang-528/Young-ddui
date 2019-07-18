@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/center/center",
+    "pages/details/details"
+  ],
+  "window": {
+    "defaultTitle": "CRM",
+    "titleBarColor": "#6190E8"
+  },
+  "tabBar": {
+    "textColor": "#333",
+    "selectedColor": "#49a9ee",
+    "backgroundColor": "#fff",
+    "items": [
+      {
+        "pagePath": "pages/index/index",
+        "icon": "/static/image/1.png",
+        "activeIcon": "/static/image/2.png",
+        "name": "CRM"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "icon": "/static/image/3.png",
+        "activeIcon": "/static/image/4.png",
+        "name": "我的"
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+<view class="wrapper">
+  <view class="wrapper-header list">
+    <view a:for="{{list}}" key="item.name" class="list-item" onTap="handleClick">
+        <view class="list-item__icon">
+          <image style="{{width:'25px',height:'25px'}}" mode="widthFix" src="{{item.icon}}"/> 
+        </view>
+        <view class="list-item__description">
+          <text>{{item.name}}</text>
+        </view>
+    </view>
+  </view>
+  <view class="wrapper-body">
+    <view></view>
+    <view class="card-wrapper">
+      <view 
+        class="card-item"  
+        a:for="{{cards}}"
+        key="{{item.title}}">
+        <y-card 
+          className="card-write"
+          title="{{item.title}}"
+          subTitle="{{item.subTitle}}"
+          thumb="{{item.icon}}"
+          arrow="{{false}}"
+          onClick="handleClick">
+        </y-card>
+      </view>
+    </view>
+  </view>
+</view>
+
