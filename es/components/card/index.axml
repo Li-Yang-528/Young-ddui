@@ -1,0 +1,22 @@
+<view
+  class="card {{className}}"
+  hover-class="card-active"
+  onTap="onCardClick"
+>
+  <view class="card-body">
+    <image a:if="{{thumb}}" src="{{thumb}}" class="card-thumb" />
+    <view class="card-content">
+      <view a:if="{{!thumb || (thumb && footer)}}" class="card-title">{{title}}</view>
+      <view class="card-subtitle">{{subTitle}}</view>
+      <view a:if="{{!footer && thumb}}" class="card-title">{{title}}</view>
+    </view>
+    <view a:if="{{arrow}}" class="card-arrow" />
+  </view>
+  <view a:if="{{$slots.content}}" class="card-container">
+    <slot name="content"></slot>
+  </view>
+  <view a:if="{{footer || $slots.footer}}" class="card-footer">
+    <image a:if="{{footerImg}}" src="{{footerImg}}" />
+    <slot name="footer">{{footer}}</slot>
+  </view>
+</view>

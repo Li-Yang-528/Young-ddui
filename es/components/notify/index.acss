@@ -1,0 +1,28 @@
+@import '../transition/index.acss';
+
+.notify {
+  position: fixed;
+  top: 0;
+  z-index: 110;
+  width: 100%;
+  padding: 5px 10px;
+  font-size: 14px;
+  line-height: 1;
+  text-align: center;
+  word-break: break-all;
+  box-sizing: border-box;
+}
+.notify--hidden{
+  display: none;
+}
+.notify--success {
+  background-color: #13CE66;
+}
+
+.notify--erro {
+  background-color: #FF4949;
+}
+
+.notify--warning {
+  background-color: #FFC82C;
+}

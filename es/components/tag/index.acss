@@ -1,0 +1,51 @@
+.tag{
+  color: #666;
+  font-size: 10px;
+  padding: .2em .5em;
+  line-height: normal;
+  border-radius: .2em;
+  display: inline-block;
+}
+.tag + .tag{
+  margin-left: 10px;
+}
+.tag::after{
+  border-color: currentColor;
+  border-radius: .4em;
+}
+
+.tag--mark{
+  padding-right: .6em;
+  border-radius: 0 .8em .8em 0;
+}
+.tag--mark::after {
+  border-radius: 0 1.6em 1.6em 0;
+}
+
+.tag--round{
+  border-radius: .8em;
+}
+.tag--round::after{
+  border-radius: 1.6em;
+}
+
+.tag--medium{
+  font-size: 12px;
+}
+
+.tag--large{
+  font-size: 14px;
+}
+
+.tag-info{
+  background-color: #EBEEF5;
+}
+.tag-success{
+  background-color: #13CE66
+}
+.tag-error{
+  background-color: #FF4949
+}
+.tag-warining{
+  background-color: #FFC82C
+}

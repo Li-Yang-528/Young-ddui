@@ -1,0 +1,22 @@
+<view
+  class="tabbar-item {{className}} {{ active ? 'tabbar-item--active' : '' }}"
+  onTap="onClick"
+>
+  <view class="tabbar-item__icon ">
+    <view
+      a:if="{{ icon }}"
+      class="{{icon}}"
+    >
+    </view>
+    <block a:else>
+      <slot
+        a:if="{{ active }}"
+        name="icon-active"
+      />
+      <slot a:else name="icon" />
+    </block>
+  </view>
+  <view class="tabbar-item__text">
+    <slot />
+  </view>
+</view>

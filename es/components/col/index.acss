@@ -1,0 +1,80 @@
+
+.cell{
+  flex: 1;
+  width: 100%;
+  display: block;
+  white-space: nowrap;
+  box-sizing: border-box;
+  padding: 0 5px;
+}
+
+
+.cell__align--top{
+  align-self: flex-start;
+}
+.cell__align--bottom{
+  align-self: flex-end;
+}
+.cell__align--center{
+  align-self: center;
+}
+
+.cell--auto{
+  max-width: initial;
+  word-break: keep-all;
+}
+.cell--wrap {
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+.cell-1{
+  flex: 0, 0, 8.333333%;
+  max-width: 8.333333%;
+}
+.cell-2{
+  flex: 0, 0, 16.666666%;
+  max-width: 16.666666%;
+}
+.cell-3{
+  flex: 0, 0, 25%;
+  max-width: 25%;
+}
+.cell-4{
+  flex: 0, 0, 33.3333333%;
+  max-width: 33.3333333%;
+}
+.cell-5{
+  flex: 0, 0, 41.666666%;
+  max-width: 41.666666%;
+}
+.cell-6{
+  flex: 0, 0, 50%;
+  max-width: 50%;
+}
+.cell-7{
+  flex: 0, 0, 58.3333333%;
+  max-width: 58.3333333%;
+}
+.cell-8{
+  flex: 0, 0, 66.666666%;
+  max-width: 66.666666%;
+}
+.cell-9{
+  flex: 0, 0, 75%;
+  max-width: 75%;
+}
+.cell-10{
+  flex: 0, 0, 83.333333%;
+  max-width: 83.333333%;
+}
+.cell-11{
+  flex: 0, 0, 91.666666%;
+  max-width: 91.666666%;
+}
+.cell-12{
+  flex: 0, 0, 100%;
+  max-width: 100%;
+}
+
+

@@ -1,0 +1,32 @@
+<view class="tab {{className}}">
+ <view class="tab-header">
+   <view
+    class="tab-header--bar"
+   >
+      <view 
+      class="tab-header__item {{activedIndex === index ? 'actived' : ''}}" 
+      style="{{width:tabWidth+ '%'}}"
+      a:for="{{tabs}}" 
+      key="tab-item-{{index}}"
+      data-index="{{index}}"
+      catchTap='handleTabClick'
+      >
+        <view  class="tab-header__title">{{item}}</view>
+      </view>
+   </view >
+   <view  style="{{width:tabWidth+ '%',left:tabBarLeft+ '%'}}" class="tab-header__item--actived"></view>
+ </view>
+ <view class="tab-body">
+  
+  <view class="tab-swiper-wrapper">
+    <view
+    class="tab-swiper"
+    style="{{transform:`translateX(${-activedIndex*100}%)`}}" 
+    >
+    <y-relation parentId="{{$id}}">
+      <slot/>
+    </y-relation>
+    </view>
+  </view>
+ </view>
+</view>

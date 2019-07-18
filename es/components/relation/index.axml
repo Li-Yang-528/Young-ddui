@@ -1,0 +1,3 @@
+<block a:for="{{$slots.$default}}" a:key="*this">
+  {{ ...item, props: {...item.props, __parentId:parentId} }}
+</block>

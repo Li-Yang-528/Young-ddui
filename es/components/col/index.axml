@@ -1,0 +1,4 @@
+<!-- cell__align\-\-{{align}} cell-{{column}}-->
+<view class="cell cell--auto cell--wrap">
+  <slot />
+</view>

@@ -1,0 +1,6 @@
+<view
+  class="tag tag--{{size}} tag-{{type}} {{mark ? 'tab--mark': ''}} {{round ? 'tag--round': ''}} {{className}}"
+  style="{{ style }}"
+>
+  <slot />
+</view>

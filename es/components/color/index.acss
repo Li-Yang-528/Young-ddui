@@ -1,0 +1,96 @@
+@charset 'UTF-8';
+
+/* 主色 */
+.color-primary{
+  color: #6190E8
+}
+
+.color-primary-light{
+  color: #78A4FA
+}
+
+.color-primary-dark{
+  color: #346FC2
+}
+
+/* 辅助色 */
+
+.color-info{
+  color: #78A4FA
+}
+.color-success{
+  color: #13CE66
+}
+.color-error{
+  color: #FF4949
+}
+.color-warining{
+  color: #FFC82C
+}
+
+/* 字体颜色 */
+.color-black-dark{
+  color: #333
+}
+.color-black-neutral{
+  color: #7F7F7F
+}
+.color-black-light{
+  color: #B2B2B2
+}
+
+.color-gray-dark{
+  color: #ccc
+}
+.color-gray-neutral{
+  color: #E5E5E5
+}
+.color-gray-light{
+  color: #F0F0F0
+}
+
+/* 边框颜色 */
+.border-color{
+  border-color: #C5D9E8
+}
+
+/* 背景色 */
+.background-color-primary{
+  background-color: #ECF5FD
+}
+.background-color-light{
+  background-color: #FAFBFC
+}
+
+/* 字体大小 */
+
+/* 仅用于数字 */
+.font-h0{
+  font-size: 40px;
+  line-height: 60px;
+}
+/* 大模块标题 */
+.font-h1{
+  font-size: 36px;
+  line-height: 54px;
+}
+/* 常规标题 */
+.font-h2{
+  font-size: 32px;
+  line-height: 48px;
+}
+/* 正文 */
+.font-h3{
+  font-size: 28px;
+  line-height: 42px;
+}
+/* 辅助文字/注释 */
+.font-h4{
+  font-size: 24px;
+  line-height: 36px;
+}
+/* 标签 */
+.font-h5{
+  font-size: 20px;
+  line-height: 30px;
+}

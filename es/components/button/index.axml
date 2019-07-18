@@ -1,0 +1,13 @@
+<button
+  class="button button--{{type}} button--{{size}} {{round ? 'button--round': ''}} {{square ? 'button--square': ''}} {{plain ? 'button--plain' : ''}} {{disabled ? 'button--disabled' : ''}}  {{className}}"
+  
+  plain="{{plain}}"
+  disabled="{{disabled}}"
+  loading="{{loading}}"
+  onTap="handleClick"
+  form-type="{{formType}}"
+  open-type="{{openType}}"
+  hover-class="none"
+>
+ <slot/>
+</button>

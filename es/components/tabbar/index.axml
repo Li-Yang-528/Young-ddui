@@ -1,0 +1,6 @@
+<view class="tabbar tabbar--fixed {{className}}" >
+  <y-relation parentId="{{$id}}">
+    <slot/>
+  </y-relation>
+</view>
+

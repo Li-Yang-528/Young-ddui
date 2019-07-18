@@ -1,0 +1,26 @@
+.tabbar-item {
+  flex: 1;
+  color: #7d7e80;
+  height: 100%;
+  display: flex;
+  line-height: 1;
+  font-size: 12px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.tabbar-item image{
+  width: 25px;
+  height: 25px;
+}
+
+.tabbar-item__icon {
+    font-size: 18px;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.tabbar-item--active {
+  color: #6190E8;
+}
+ 

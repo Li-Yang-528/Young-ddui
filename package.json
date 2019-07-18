@@ -1,13 +1,25 @@
 {
-  "name": "young-ui",
-  "version": "0.0.2",
+  "name": "young-ddui",
+  "version": "1.0.0",
   "description": "钉钉小程序(E应用)UI组件库",
+  "main": "index.js",
   "files": [
     "es"
   ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Li-Yang-528/dingding-Young-ui.git"
+  },
   "keywords": [
-    "dingtalk"
+    "钉钉小程序"
   ],
   "author": "layah",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Li-Yang-528/dingding-Young-ui/issues"
+  },
+  "homepage": "https://github.com/Li-Yang-528/dingding-Young-ui#readme"
 }

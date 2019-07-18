@@ -1,0 +1,13 @@
+<view  
+class="
+row 
+row__direction--{{direction}} 
+row--{{wrap}}  
+row__justify--{{justify}} 
+row__align-content--{{alignContent}}
+{{className}}
+"
+>
+
+ <slot/>
+</view>

@@ -1,0 +1,3 @@
+<view class="tab-item {{className}}" key="tab-item-{{key}}">
+  <slot />
+</view>

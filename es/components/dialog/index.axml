@@ -1,0 +1,23 @@
+<view class="modal-{{visible ? 'show' : 'hide'}}" disable-scroll="{{disableScroll}}">
+	<view class="modal-mask" a:if="{{mask}}"/>
+	<view class="modal {{className}}">
+    <view class="modal-header">
+      <slot a:if="{{$slots.header && !title}}" name="header" />
+      <text a:elif="{{title && !$slots.header}}">{{title}}</text>
+    </view>
+    <view class="modal-body">
+      <slot />
+    </view>
+    <view class="modal-footer">
+      <slot a:if="{{$slots.footer}}" name="footer" />
+      <block a:else>
+        <y-button a:if="{{showCancelButton}}" plain size='small' type='text' onClick="onModalClose">
+          {{cancelButtonText}}
+        </y-button> 
+        <y-button className="confirmButton" a:if="{{showConfirmButton}}" type="text" size='small' onclick='onModalSure'>
+          {{confirmButtonText}}
+        </y-button> 
+      </block>
+    </view>
+  </view>
+</view>

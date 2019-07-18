@@ -1,0 +1,79 @@
+.modal-show {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.modal-hide {
+  display: none;
+}
+.modal-mask{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.modal-document {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  background-color: #fff;
+  border-radius: 2px;
+  padding-top: 0;
+  width: 85%;
+  transition: 0.3s;
+}
+
+.modal-header {
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #333;
+  font-weight: 600;
+  padding-top: 22px;
+}
+.modal-body {
+  margin-top: 8px;
+  overflow: hidden;
+  max-width: 270px;
+  padding: 0 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #333;
+  font-size: 14px;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  margin-top: 12px;
+  position: relative;
+  text-align: center;
+  border-top: 1px solid #ddd;
+}
+.modal-footer button{
+  flex: 1;
+  height:40px;
+  line-height:40px;
+}
+.modal-footer button:active{
+  background-color: #ebedf0;
+}
+.modal-footer button + button{
+  border-left: 1px solid #ddd;
+  margin-left: 0;
+}
+.confirmButton{
+  color: #6190E8;
+}

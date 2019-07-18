@@ -1,0 +1,50 @@
+@import '../transition/index.acss';
+
+.toast {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  max-width: 70%;
+  margin: -35%;
+  z-index: 100;
+  border-radius: 6px;
+  background-color: rgba(50, 50, 51, 0.88);
+  transform-origin: center;
+}
+.toast--enter{
+  animation: zoomIn 0.3s ease-in-out both;
+}
+.toast--leave{
+  animation: zoomOut 0.3s ease-in-out both;
+}
+.toast-mask{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  z-index: 99;
+}
+.toast-content {
+  display: flex;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.5;
+  word-break: break-all;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: content-box;
+  white-space: pre-wrap;
+  text-align: center;
+}
+.toast-content text{
+  padding: 8px 10px;
+  min-width: 100px;
+}
+.toast-content icon{
+  width: 100px;
+  padding: 15px;
+}
+

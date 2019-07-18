@@ -1,0 +1,11 @@
+<view onTap="click" class="badge {{className}} {{!$slots.inner ? 'badge-not-a-wrapper' : ''}}">
+  <view
+    class="badge-text
+    {{ text.toString().length > 1 ? 'badge-double' : ''}}"
+    a:if="{{!dot}}">
+      <text class="badge-text-inner" a:if="{{$slots.inner}}">{{typeof text === 'number' && text > overflowCount ? overflowCount + '+' : text }}</text>
+      <text class="badge-text-padding" a:else>{{typeof text === 'number' && text > overflowCount ? overflowCount + '+' : text }}</text>
+  </view>
+  <view class="badge-text is-dot" a:if="{{dot}}"></view>
+  <slot name="inner" />
+</view>

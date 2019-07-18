@@ -1,0 +1,6 @@
+<view class="toast toast--{{zoomName}}" a:if="{{show}}">
+  <view class="toast-content">
+    <icon size="{{option.size}}" a:if="{{option.icon}}" type="{{option.icon}}" color="white"/>
+    <text>{{option.text}}</text>
+  </view>
+</view>

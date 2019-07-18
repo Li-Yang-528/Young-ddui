@@ -1,0 +1,8 @@
+<view class="timeline-item">
+  <view class="timeline-item__timestamp" a:if="{{timestamp}}">{{timestamp}}</view>
+  <view class="timeline-item__wrapper">
+    <y-relation parentId="{{$id}}">
+      <slot/>
+    </y-relation>
+  </view>
+</view>

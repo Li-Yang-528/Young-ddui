@@ -1,0 +1,5 @@
+<view
+  class="{{ display ? ' notify ' : 'notify--hidden'}} notify--{{option.type}} {{className}} slide-down--{{slideName}}"
+>
+  {{option.text}}
+</view>
