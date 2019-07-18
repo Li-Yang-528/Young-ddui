@@ -1,6 +1,6 @@
 {
   "component": true,
   "usingComponents": {
-    "y-relation": "/components/relation/index"
+    "y-relation": "../../relation/index"
   }
 }
