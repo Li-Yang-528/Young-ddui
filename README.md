@@ -23,3 +23,9 @@
 - Toast
 - Timeline
 
+## 安装
+******
+钉钉开发工具中安装：
+```
+npm i young-ddui
+```
