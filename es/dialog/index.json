@@ -1,6 +1,6 @@
 {
   "component": true,
   "usingComponents": {
-    "y-button": "/components/button/index"
+    "y-button": "../button/index"
   }
 }
