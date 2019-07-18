@@ -256,4 +256,5 @@ icon|图标 | string|—|""
 duration|关闭时长 | number|—|3000
 size|icon图标大小 | number|—|50
 
-
+# 最后
+如果想要效果的朋友，可以clone文件夹demo在钉钉小程序开发工具打开并安装young-ddui即可查看
