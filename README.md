@@ -4,5 +4,22 @@
 
 ## 主要功能
 
-> 支持$children及$parent父子组件结构
-> 支持$refs使用
+- 支持$children及$parent父子组件结构
+
+- 支持$refs使用
+
+## 主要模块
+
+- Button 
+- Badge
+- Card
+- Col
+- Dialog
+- Notify
+- Row
+- Tabbar
+- Tabs
+- Tag
+- Toast
+- Timeline
+
