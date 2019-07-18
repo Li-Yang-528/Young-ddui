@@ -36,18 +36,18 @@ page.json引用
 按钮
 | 参数 | 说明 | 类型 | 可选值 |默认值|
 |:---- |:----|:----|:----|:----|
-className|自定义class | string|—|""
-size|尺寸|string|mini/small/large/block|"normal"
-type|类型|string|primary/danger/warning| "default"
-plain|是否镂空|boolean|—|false
-disabled|禁用|boolean|—| false
-round|是否圆角| boolean| —|false
-square|是否方形|boolean| —|false
-loading| loading状态|boolean|—|false
-onClick|click事件|function|—
-formType|按钮类型|string|submit/reset|—
-openType|开放能力|string| share | —
-hoverClass|按钮按下去的样式类|string|—|—
+|className|自定义class | string|—|""|
+|size|尺寸|string|mini/small/large/block|"normal"|
+type|类型|string|primary/danger/warning| "default"|
+|plain|是否镂空|boolean|—|false|
+|disabled|禁用|boolean|—| false|
+|round|是否圆角| boolean| —|false|
+|square|是否方形|boolean| —|false|
+|loading| loading状态|boolean|—|false|
+|onClick|click事件|function|—|
+|formType|按钮类型|string|submit/reset|—|
+|openType|开放能力|string| share | —|
+|hoverClass|按钮按下去的样式类|string|—|—|
 
 ### Slot
 | 名 称 | 说    明 
