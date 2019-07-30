@@ -11,9 +11,9 @@
 ```
 this.$parent/this.$children
 ```
-* 支持页面ref获取组件对象 - 组件定义refName
+* 支持页面$refs获取组件对象 - 组件定义refName
 ```
-this.$ref[refName]
+this.$refs[refName]
 ```
 
 <!-- more -->
